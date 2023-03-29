@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+
 jobs:
   build-deploy:
     name: Build and Deploy Spring boot for beginner
@@ -27,4 +28,4 @@ jobs:
           mvn clean
           mvn -B package --file pom.xml
           
-      
+    
